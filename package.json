@@ -2,7 +2,8 @@
   "name": "hottm-cli",
   "version": "0.1.0-alpha.1",
   "description": "Humanitarian OpenStreetMap Team Tasking Manager CLI",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "bin": {
     "hottm": "bin/hottm"
   },
@@ -29,9 +30,12 @@
     "ink": "^3.2.0"
   },
   "files": [
-    "dist",
+    "lib",
     "bin",
     "interface",
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
