@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {render, Box} from 'ink';
+import {render, Box, Text} from 'ink';
 import TextInput from 'ink-text-input';
 
 // Next step
