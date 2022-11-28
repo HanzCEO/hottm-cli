@@ -29,7 +29,7 @@
     "ink": "^3.2.0"
   },
   "files": [
-    "lib",
+    "dist",
     "bin",
     "interface",
     "index.js"
