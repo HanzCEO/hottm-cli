@@ -27,7 +27,8 @@
   "dependencies": {
     "axios": "^1.2.0",
     "import-jsx": "^4.0.1",
-    "ink": "^3.2.0"
+    "ink": "^3.2.0",
+    "ink-text-input": "^4.0.3"
   },
   "files": [
     "lib",
