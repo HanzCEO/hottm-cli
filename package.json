@@ -1,0 +1,37 @@
+{
+  "name": "hottm-cli",
+  "version": "0.1.0-alpha.1",
+  "description": "Humanitarian OpenStreetMap Team Tasking Manager CLI",
+  "main": "index.js",
+  "bin": {
+    "hottm": "bin/hottm"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanzCEO/hottm-cli.git"
+  },
+  "keywords": [
+    "osm",
+    "hot"
+  ],
+  "author": "Hanz <hanz@godot.id>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanzCEO/hottm-cli/issues"
+  },
+  "homepage": "https://github.com/HanzCEO/hottm-cli#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "import-jsx": "^4.0.1",
+    "ink": "^3.2.0"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "interface",
+    "index.js"
+  ]
+}
