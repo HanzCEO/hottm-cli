@@ -2,4 +2,4 @@
 
 process.title = 'HOT Tasking Manager';
 
-require('import-jsx')('../interface');
+require('import-jsx')('../interface/index.jsx');

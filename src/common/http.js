@@ -1,6 +1,6 @@
-import axios from axios;
+const axios = require('axios');
 
-export function createHttpClient(subPart, opts={}): any {
+function createHttpClient(subPart, opts={}): {
 	const defaults = {
 		timeout: 10_000,
 		headers: {
@@ -20,3 +20,7 @@ export function createHttpClient(subPart, opts={}): any {
 
 	return axios.create(opts);
 }
+
+module.exports = {
+	createHttpClient
+};
